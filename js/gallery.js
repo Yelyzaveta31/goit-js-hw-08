@@ -88,7 +88,6 @@ galleryList.innerHTML = imageCards;
     {
         event.preventDefault();
         if (event.target !== event.currentTarget) {
-            console.log(event.target);
         const originalImage = event.target.dataset.source;        
         const imageModal = basicLightbox.create(
         `<img src="${originalImage}" width="1112" height="640">`
